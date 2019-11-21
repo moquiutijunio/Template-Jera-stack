@@ -1,18 +1,10 @@
 //  ___FILEHEADER___
 
-import Base
-import RxSwift
-import RxCocoa
-
-public protocol ___VARIABLE_productName:identifier___RepositoryProtocol {
+protocol ___FILEBASENAMEASIDENTIFIER___Protocol {
     
 }
 
-public protocol ___FILEBASENAMEASIDENTIFIER___Protocol {
-    
-}
-
-public final class ___FILEBASENAMEASIDENTIFIER___: BaseInteractor {
+final class ___FILEBASENAMEASIDENTIFIER___: BaseInteractor {
  
     private let repository: ___VARIABLE_productName:identifier___RepositoryProtocol
     
@@ -22,6 +14,7 @@ public final class ___FILEBASENAMEASIDENTIFIER___: BaseInteractor {
     }
 }
 
+// MARK: - ___FILEBASENAMEASIDENTIFIER___Protocol
 extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
     
 }

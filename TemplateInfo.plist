@@ -16,7 +16,7 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Base name:</string>
+			<string>Class Name:</string>
 			<key>Type</key>
 			<string>text</string>
 		</dict>
@@ -26,34 +26,17 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Architecture:</string>
+			<string>Module:</string>
 			<key>Type</key>
 			<string>popup</string>
 			<key>Default</key>
 			<string>Viper Basics</string>
 			<key>Values</key>
 			<array>
-				<string>Viper</string>
-				<string>Viper + IGListKit</string>
-				<string>ViperBuilder</string>
-				<string>ViperBuilder + IGListKit</string>
+				<string>Presentation</string>
+				<string>Domain</string>
+				<string>Data</string>
 			</array>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string> + XIBfile</string>
-			<key>Name</key>
-			<string>Also create a XIB file</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>architecture</key>
-				<array>
-					<string>Viper</string>
-					<string>ViperBuilder</string>
-				</array>
-			</dict>
 		</dict>
 	</array>
 </dict>
